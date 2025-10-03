@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accordion — Roadmap.sh exercise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <main class="container">
+      <header class="intro">
+        <h1>Frequently Asked Questions</h1>
+        <p class="lead">Here are some of the frequently asked questions</p>
+      </header>
+
+      <section class="accordion" aria-label="Frequently asked questions">
+
+        <div class="accordion-item">
+          <button id="acc-1" class="accordion-header" aria-expanded="false" aria-controls="panel-1">
+            <span>What is roadmap.sh?</span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+          <div id="panel-1" class="accordion-panel" role="region" aria-labelledby="acc-1">
+            <p>roadmap.sh is a community effort to create learning paths, guides, project ideas and other similar content to help developers grow in their careers.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button id="acc-2" class="accordion-header" aria-expanded="false" aria-controls="panel-2">
+            <span>What are the plans for roadmap.sh?</span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+          <div id="panel-2" class="accordion-panel" role="region" aria-labelledby="acc-2">
+            <p>Plans include expanding the number of career roadmaps, improving the contribution experience, and keeping content up to date with industry changes.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button id="acc-3" class="accordion-header" aria-expanded="false" aria-controls="panel-3">
+            <span>How is roadmap.sh built?</span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+          <div id="panel-3" class="accordion-panel" role="region" aria-labelledby="acc-3">
+            <p>The site is built using static site tooling and community contributions. It focuses on simple, readable content and easy navigation.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button id="acc-4" class="accordion-header" aria-expanded="false" aria-controls="panel-4">
+            <span>Can I use roadmap.sh in my team?</span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+          <div id="panel-4" class="accordion-panel" role="region" aria-labelledby="acc-4">
+            <p>Yes — content is open and you can use, share, and adapt the roadmaps within your team. Check the project license for details.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button id="acc-5" class="accordion-header" aria-expanded="false" aria-controls="panel-5">
+            <span>How can I create custom roadmaps?</span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+          <div id="panel-5" class="accordion-panel" role="region" aria-labelledby="acc-5">
+            <p>You can fork the repo or use the available templates to create custom roadmaps. Contribution guides explain how to submit changes.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button id="acc-6" class="accordion-header" aria-expanded="false" aria-controls="panel-6">
+            <span>Is roadmap.sh really 7th most starred project on GitHub?</span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+          <div id="panel-6" class="accordion-panel" role="region" aria-labelledby="acc-6">
+            <p>Rankings change over time. It has been highly starred and popular within the developer community; check GitHub for current stats.</p>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </div>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
